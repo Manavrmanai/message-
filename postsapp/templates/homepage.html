@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+    <head> </head>
+    <body>
+    
+        <h1> Manav message box </h1>
+
+        <ul>
+
+            {% for posts in all_messages %}
+
+            <li>{{ posts.text }}</li>
+
+            {% endfor %}
+
+        <h3> this is my today's blog. </h3>
+
+
+        </ul>
+    
+    </body>
